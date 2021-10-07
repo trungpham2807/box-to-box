@@ -1,0 +1,21 @@
+body {
+    min-height: 100vh;
+  }
+  #signout-button{
+    background-color: rosybrown;
+    border-radius: 20px;
+  }
+
+  #signin-button{
+    background-color: rgb(88, 81, 153);
+    border-radius: 20px;
+  }
+  #magic-8-ball{
+    animation: hi;
+    background-color: skyblue;
+  }
+ @keyframes hi {
+      from {background-color: red;}
+      to {background-color: yellow;}
+    }
+  
